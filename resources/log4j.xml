@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+  <!-- Daily Rolling File Appender that compresses old files -->
+  <appender name="ROLL" class="org.apache.log4j.rolling.RollingFileAppender">
+    <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+      <param name="FileNamePattern" value="${catalina.base}/logs/password_generator_ws.%d.log.zip"/>
+    </rollingPolicy>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{dd/MM/yyyy HH:mm:ss,SSS} [v${pom.version}] [%p] [%t] [%C:%L] - %m%n"/>
+    </layout>
+  </appender>
+  <logger name="com.campione_tech.ws.password_generator_ws.StartupServlet" additivity="false">
+    <level value="debug"/>
+    <appender-ref ref="ROLL" />
+  </logger>
+  <logger name="com.campione_tech.ws.password_generator_ws.PasswordGeneratorWSServer" additivity="false">
+    <level value="debug"/>
+    <appender-ref ref="ROLL" />
+  </logger>
+  <logger name="com.campione_tech.ws.password_generator_ws.services.database.DbUtils" additivity="false">
+    <level value="debug"/>
+    <appender-ref ref="ROLL" />
+  </logger>
+</log4j:configuration>
