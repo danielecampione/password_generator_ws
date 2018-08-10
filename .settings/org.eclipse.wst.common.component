@@ -2,6 +2,7 @@
     <wb-module deploy-name="password_generator_ws">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
         <property name="context-root" value="password_generator_ws"/>
         <property name="java-output-path" value="/password_generator_ws/build/classes"/>
     </wb-module>
