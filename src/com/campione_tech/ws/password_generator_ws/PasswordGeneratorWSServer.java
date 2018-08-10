@@ -47,6 +47,6 @@ public class PasswordGeneratorWSServer {
 
     @WebMethod(operationName = "version", action = "urn:VersionAction")
     public String version() {
-        return "Version 0.0.0.1";
+        return "Version 0.0.0.2";
     }
 }
