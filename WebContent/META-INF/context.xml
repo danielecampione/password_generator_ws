@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Specify a JDBC datasource -->
+    <Resource auth="Container"
+              name="jdbc/put_here_the_name"
+              type="oracle.jdbc.pool.OracleConnectionPoolDataSource"
+              factory="oracle.jdbc.pool.OracleDataSourceFactory"
+              url="jdbc:oracle:thin:/@PUT_HERE_THE_NAME"/>
+</Context>

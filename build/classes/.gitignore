@@ -1,1 +1,4 @@
 /log4j.properties
+/META-INF/
+/config.properties
+/cxf.xml
