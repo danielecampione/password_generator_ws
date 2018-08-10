@@ -22,4 +22,12 @@
     <level value="debug"/>
     <appender-ref ref="ROLL" />
   </logger>
+  <logger name="com.campione_tech.ws.password_generator_ws.WSLoggingInInterceptor" additivity="false">
+    <level value="debug"/>
+    <appender-ref ref="ROLL" />
+  </logger>
+  <logger name="com.campione_tech.ws.password_generator_ws.LoggingOutCallBack" additivity="false">
+    <level value="debug"/>
+    <appender-ref ref="ROLL" />
+  </logger>
 </log4j:configuration>
