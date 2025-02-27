@@ -44,7 +44,7 @@ s7mPKjZoR9G0ZM
 ```
 
 ### Screenshots
-![Png](https://image.ibb.co/ejFQd9/Cattura01.png)
-![Png](https://image.ibb.co/mkAVBU/Cattura02.png)
-![Png](https://image.ibb.co/g0q8y9/Cattura03.png)
-![Png](https://image.ibb.co/daLVT9/Cattura04.png)
+![Png](https://i.ibb.co/jknBp7nY/01.png)
+![Png](https://i.ibb.co/2YWCcFMy/02.png)
+![Png](https://i.ibb.co/whH533SC/03.png)
+![Png](https://i.ibb.co/S77mTBJk/04.png)
